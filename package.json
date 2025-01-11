@@ -1,0 +1,20 @@
+{
+  "name": "cse-341-project",
+  "version": "1.0.0",
+  "description": "Contacts",
+  "homepage": "https://github.com/cmandres1/CSE341#readme",
+  "bugs": {
+    "url": "https://github.com/cmandres1/CSE341/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmandres1/CSE341.git"
+  },
+  "license": "ISC",
+  "author": "Andres Cabada",
+  "type": "commonjs",
+  "main": " server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
