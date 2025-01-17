@@ -1,0 +1,30 @@
+//LOCAL
+###
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/6782a5b0c997c3e0216b9baf
+
+### Create User
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": " jDoe@test.com",
+    "favoriteColor": "blue",
+    "birthday": "01/09/2021"
+}
+
+### Update User
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": " jDoe@test.com",
+    "favoriteColor": "blue",
+    "birthday": "12/12/2020"
+}
