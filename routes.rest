@@ -18,13 +18,16 @@ Content-Type: application/json
 }
 
 ### Update User
-POST http://localhost:3000/users HTTP/1.1
+PUT  http://localhost:3000/users/6789d6e89bafae23294bd002
 Content-Type: application/json
 
 {
     "firstName": "John",
     "lastName": "Doe",
     "email": " jDoe@test.com",
-    "favoriteColor": "blue",
+    "favoriteColor": "black",
     "birthday": "12/12/2020"
 }
+
+#### Delete User
+DELETE http://localhost:3000/users/6789d6e89bafae23294bd002
